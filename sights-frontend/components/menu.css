@@ -1,0 +1,33 @@
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 40px);
+    height: 78px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media(min-width: 530px) {
+    #menu {
+        width: calc(100vw - 20px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+#button-container{
+    display: flex;
+    gap: 5px;
+    padding-right: 10px;
+}
+
+#menu .logo-container {
+    width: 68px;
+    height: 68px;
+}
